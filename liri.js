@@ -8,10 +8,10 @@ var axios = require("axios");
 var keys = require("./keys.js");
 
 // A variable to hold the node-spotify-API npm to more easily get to spotify data <-- Might have to revist this line later for bugging purposes
-var Spotify = require("node-spotify-API");
+var Spotify = require("node-spotify-api");
 
 // A variable to require the moment npm package to parse dates
-var moment = require("node-spotify-API");
+var moment = require("node-spotify-api");
 
 // A variable that holds the spotify keys that's located on the .env file
 var spotify = new Spotify(keys.spotify);
@@ -180,5 +180,5 @@ movies();
 
 // Steps:
 
-// 1)
+
 
