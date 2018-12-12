@@ -34,8 +34,8 @@ for (i = 3; i < process.argv.length; i++) {
 };
 
 // A variable to hold the search function that searches spotify. Also, takes the users' input, joins it and puts it into the spotify search
-var music = function() {spotify.search({ type: "track", query: input.join(" "), limit: 1 }, function (err, dara) {
-
+var music = function() {spotify.search({ type: "track", query: input.join(" "), limit: 1 }, function (err, data) {
+console.log(data);
 // Make a if condition to log any error, and tell what the error is.
 if (err) {
     return console.log("error occured " + err);
